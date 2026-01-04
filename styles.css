@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+.pricing-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pricing-card {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 200px;
+  justify-content: space-between;
+  border: 2px solid black;
+  margin: 0 20px;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.basic-plan {
+  padding: 10px;
+  background-color: whitesmoke;
+  order: 0;
+}
+
+.pro-plan {
+  padding: 10px;
+  background-color: whitesmoke;
+  order: 1;
+  flex-grow: 2;
+}
+
+.premium-plan {
+  padding: 10px;
+  background-color: whitesmoke;
+  order: 2;
+}
